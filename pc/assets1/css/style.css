@@ -1,0 +1,122 @@
+section{ 
+    background-color: #EDE3E0;
+    padding: 100px;/*funciona de relleno si coloco un solo valor es generico*/ 
+    margin:  0 0 0 0;/*se mueve con respecto a las secciones se puede jugar*/
+    /*margin: 0 100px 0 100px */
+}
+section:nth-child(2n){
+    background-color: #AF93B3;  
+}
+
+section.primary{
+    background-color: #E1A7B4;
+}
+
+.secion-sec{
+    padding: 10px;
+}
+
+h1{
+    position: relative; 
+    top: 20px;
+    margin:10px;
+    font-family: Lobster;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 30px;
+    color: #153F65;
+}
+
+h2{
+    position: relative; 
+    top: auto;
+    margin:auto;
+    font-family: Lobster;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: auto;
+    color: #153F65;
+}
+
+p{
+    position: relative; 
+    top: 10px; 
+    margin:auto;
+    font-family: Lobster;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+
+    color: #03131F;
+}
+
+.div-1 {
+    border: black 1px solid;
+  }
+
+  .nav-link{
+    position: relative;
+      color: #EDF4FE;
+  }
+
+.btn-new{ /*  define lo pimero lo esencial*/
+    position: relative;
+    margin: 10px;
+    color: #EDF4FE;
+    background-color: transparent;
+    border:3px solid;
+    width: 110px;
+    height: 50px;
+
+  }
+
+.btn-social{
+    position: relative; 
+    top: auto;
+    margin:auto;
+    color: #092435;
+    background-color: transparent;
+    border: 3px solid;
+    border-radius: 50%;
+}
+
+.btn-new:hover{
+    background-color: #C1E3FF;
+    border-color: #C1E3FF;
+}
+
+.img-new { 
+    top: 10px; 
+    position:relative;
+    display:block;
+    margin:20px; 
+    width: 200px;
+    height: 200px;
+}
+
+
+.img-circle-new { 
+    position:relative;
+    display:block;
+    margin:50px; 
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.img-circle-r { 
+    position:relative;
+    display:right;
+    margin:50px; 
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+
+.p-izq{
+    float: left;
+}
